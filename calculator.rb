@@ -16,6 +16,7 @@ it "contains a local variable called sum that is assigned to the result of addin
 end
 it "contains a local variable called difference that is assigned to the result of subtracting first_number and second_number" do
   
+  
 
 expect(difference).toeq(se)
 expect(product).toeq(first_number*second_number)
