@@ -28,5 +28,4 @@ it "contains a local variable called product that is assigned to the result of m
   
   expect(product).toeq(first_number*second_number)
 end
-
-expect(quotient).toeq(second_number/first_number)
+it 
