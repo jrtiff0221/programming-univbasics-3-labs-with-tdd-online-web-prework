@@ -19,9 +19,14 @@ it "contains a local variable called difference that is assigned to the result o
   second_number = get_variable_from_file('.calculator.rb', "second_number")
   difference = get_variable_from_file('.calculator.rb', "sum")
 
-expect(difference).toeq(first_number-second_number)
+  expect(difference).toeq(first_number-second_number)
 end
-  it "contains a local variable called product that is assigned to the result of multiplying first_number and second_number" do
-    
-expect(product).toeq(first_number*second_number)
+it "contains a local variable called product that is assigned to the result of multiplying first_number and second_number" do
+  first_number = get_variable_from_file('.calculator.rb', "first_number")
+  second_number = get_variable_from_file('.calculator.rb', "second_number")
+  product = get_variable_from_file('.calculator.rb', "product")
+  
+  expect(product).toeq(first_number*second_number)
+end
+it
 expect(quotient).toeq(second_number/first_number)
