@@ -21,6 +21,7 @@ it "contains a local variable called difference that is assigned to the result o
 
 expect(difference).toeq(first_number-second_number)
 end
-
+  it "contains a local variable called product that is assigned to the result of multiplying first_number and second_number" do
+    
 expect(product).toeq(first_number*second_number)
 expect(quotient).toeq(second_number/first_number)
