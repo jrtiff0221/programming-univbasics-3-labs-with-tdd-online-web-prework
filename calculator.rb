@@ -36,3 +36,4 @@ end
   
   expect(quotient).toeq(first_number/second_number)
 end
+end
